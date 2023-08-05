@@ -341,8 +341,8 @@ h4{
 .box{
     background-color: white;
     
-    position: absolute;
-    right:35%;
+    position: relative;
+    margin: 0 auto;
     width: 400px;
     height: 440px;
     z-index: 99;
@@ -364,6 +364,12 @@ h4{
         right:0%;
     }
     
+  }
+
+  .container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
   }
 
 .active-popup{
